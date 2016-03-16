@@ -16,7 +16,7 @@ ap = argparse.ArgumentParser(
 	prog = 'Hasher',
 	usage = '%(prog)s [-a [algorithm]] [-s (ssdeep)] (-f file | -d directory | -l list)',
 	description = 'Welcome to Hasher\n',
-	epilog = 'For more information about Hasher contact Jovan at jmilic1@jhu.edu',
+	epilog = 'For more information about Hasher contact milicjx',
 	formatter_class = argparse.ArgumentDefaultsHelpFormatter)
 
 ap.add_argument('-a', nargs = '?', const = 'sha256', default = 'sha256', help = 'Specify cryptographic hash function.')
